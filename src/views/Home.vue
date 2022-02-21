@@ -1,7 +1,6 @@
 <template>
   <v-app :style="{background: $vuetify.theme.themes.dark.background}">
-    <SideBar/>
-    <SideBarRight/>
+
     <v-container>
       <v-toolbar color="rgba(0,0,0,0)" flat>
         <v-toolbar-title class="mt-n3">Choisir un produit</v-toolbar-title>
@@ -244,15 +243,15 @@
 </template>
 
 <script>
-import SideBar from '../components/SideBar'
-import SideBarRight from '../components/SideBarRight'
+/*import SideBar from '../components/SideBar'
+import SideBarRight from '../components/SideBarRight'*/
 
 export default {
   name: 'Home',
 
   components: {
-    SideBar,
-    SideBarRight
+   /* SideBar,
+    SideBarRight*/
   },
 }
 </script>

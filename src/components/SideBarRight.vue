@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer app color="white" right width="290">
+  <v-navigation-drawer v-model="rightDrawer" app color="white" right width="290">
     <v-list subheader two-line class="mt-1">
       <v-list-item>
         <v-list-item-avatar rounded>
@@ -82,7 +82,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+    props: ['rightDrawer']
+}
 </script>
 
 <style>
